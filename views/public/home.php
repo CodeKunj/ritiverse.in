@@ -348,7 +348,8 @@ ob_start();
 <!-- ══════════════════════════════════════════
      WHAT WE BUILD (3D ROTATING SERVICES)
 ══════════════════════════════════════════ -->
-<section class="services-bento container" id="solutions">
+<!-- <section class="services-bento container" id="solutions"> -->
+<section class="services-bento container" id="work">
     <div class="shader-frame reveal" id="gallery-heading-host">
         <canvas id="gallery-heading-canvas" class="gallery-heading-canvas" aria-label="What we build — interactive 3D canvas animation"></canvas>
     </div>
