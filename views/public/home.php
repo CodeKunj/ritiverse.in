@@ -331,267 +331,350 @@ ob_start();
         <div class="curved-carousel-stage" id="curvedStage">
             <div class="curved-carousel-track" id="curvedTrack">
 
-                <!-- SET 1 -->
-                <!-- Card 1: Edit Anything -->
+                <!-- ══════════════════════════════════════════
+                     SET 1 (Cards 1 to 6)
+                ══════════════════════════════════════════ -->
+                <!-- Card 1: Live Pricing & Catalog -->
                 <div class="curved-card-container">
                     <div class="curved-card">
                         <div class="card-glass-glow"></div>
                         <div class="curved-card-inner">
                             <div class="curved-card-top">
-                                <div class="card-icon-pill">✏️</div>
-                                <span class="card-live-badge"><span class="pulse-dot"></span>LIVE CMS</span>
-                            </div>
-                            <div class="card-micro-preview">
-                                <div class="preview-cms">
-                                    <div class="preview-row">
-                                        <span class="p-label">Headline:</span>
-                                        <div class="p-input">Summer Sale · 30% Off<span class="blink-cursor">|</span></div>
+                                <div class="card-top-left">
+                                    <div class="tech-icon-pill">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
                                     </div>
-                                    <div class="preview-row split">
+                                    <span class="tech-index">// SYS.01</span>
+                                </div>
+                                <span class="tech-badge live"><span class="hardware-led green"></span>AUTO-SYNC</span>
+                            </div>
+
+                            <div class="card-micro-preview">
+                                <div class="preview-catalog-engine">
+                                    <div class="meta-row">
+                                        <span class="sku-tag">SKU: RTV-8820 · SURAT</span>
+                                        <span class="stock-pill">24 IN STOCK</span>
+                                    </div>
+                                    <div class="product-spec">
+                                        <div class="item-title">Drop-Shoulder Heavy Tee</div>
+                                        <div class="item-sub">Apparel · SS26 Drop</div>
+                                    </div>
+                                    <div class="pricing-matrix">
+                                        <div class="price-col">
+                                            <span class="m-label">MSRP</span>
+                                            <span class="price-val strike">₹2,499</span>
+                                        </div>
+                                        <div class="price-col">
+                                            <span class="m-label">LIVE PRICE</span>
+                                            <span class="price-val active">₹1,799</span>
+                                        </div>
+                                        <span class="discount-chip">-28% FLASH</span>
+                                    </div>
+                                    <div class="sync-footer">
+                                        <div class="toggle-control">
+                                            <span class="mini-toggle active"></span>
+                                            <span class="toggle-text">Storefront Sync: Active</span>
+                                        </div>
+                                        <span class="commit-time">Synced 2s ago</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="curved-card-body">
+                                <h3>Live Pricing &amp; Catalog</h3>
+                                <p>Update inventory, adjust flash-sale discounts, and publish catalog items across web and app in seconds.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">// 01 · REAL-TIME COMMERCE</div>
+                </div>
+
+                <!-- Card 2: Granular Access Matrix -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-top-left">
+                                    <div class="tech-icon-pill">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                                    </div>
+                                    <span class="tech-index">// PERM.02</span>
+                                </div>
+                                <span class="tech-badge security">RBAC MATRIX</span>
+                            </div>
+
+                            <div class="card-micro-preview">
+                                <div class="preview-access-matrix">
+                                    <div class="user-row">
+                                        <div class="u-avatar super">DK</div>
+                                        <div class="u-meta">
+                                            <span class="u-name">Dhrumil (Founder)</span>
+                                            <span class="u-scope">Superadmin · Full Access</span>
+                                        </div>
+                                        <span class="role-chip super">OWNER</span>
+                                    </div>
+                                    <div class="user-row">
+                                        <div class="u-avatar finance">RK</div>
+                                        <div class="u-meta">
+                                            <span class="u-name">Rajesh K. (Accounts)</span>
+                                            <span class="u-scope">Finance &amp; GST Invoicing</span>
+                                        </div>
+                                        <span class="role-chip finance">FINANCE</span>
+                                    </div>
+                                    <div class="hairline-perms">
+                                        <div class="perm-rule allow"><span>✓</span> Export GST &amp; P&amp;L Statements</div>
+                                        <div class="perm-rule allow"><span>✓</span> Approve Vendor Disbursements</div>
+                                        <div class="perm-rule deny"><span>✕</span> Delete Customer Master DB 🔒</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="curved-card-body">
+                                <h3>Granular Access Matrix</h3>
+                                <p>Define exactly who can edit prices, view financial statements, or publish content — from managers to accountants.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">// 02 · ENTERPRISE SECURITY</div>
+                </div>
+
+                <!-- Card 3: Side-by-Side Staging -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-top-left">
+                                    <div class="tech-icon-pill">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                                    </div>
+                                    <span class="tech-index">// STAGE.03</span>
+                                </div>
+                                <span class="tech-badge staging"><span class="hardware-led orange"></span>8ms SYNC</span>
+                            </div>
+
+                            <div class="card-micro-preview">
+                                <div class="preview-staging-env">
+                                    <div class="viewport-selector-bar">
+                                        <span class="v-tab">Desktop 1440</span>
+                                        <span class="v-tab active">iPhone 15 Pro</span>
+                                    </div>
+                                    <div class="rendered-mini-phone">
+                                        <div class="phone-notch"></div>
+                                        <div class="phone-screen-content">
+                                            <span class="phone-eyebrow">RITIVERSE / MONSOON</span>
+                                            <div class="phone-headline">Flash Drop is Live.</div>
+                                            <div class="phone-btn">Explore Drop →</div>
+                                        </div>
+                                    </div>
+                                    <div class="staging-tag-pill">● STAGING PREVIEW · NOT YET LIVE</div>
+                                </div>
+                            </div>
+
+                            <div class="curved-card-body">
+                                <h3>Side-by-Side Staging</h3>
+                                <p>Inspect how layout, banner, and typography edits render on mobile and desktop viewports before pushing live.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">// 03 · RESPONSIVE STAGING</div>
+                </div>
+
+                <!-- Card 4: Activity Log & Rollback -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-top-left">
+                                    <div class="tech-icon-pill">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+                                    </div>
+                                    <span class="tech-index">// AUDIT.04</span>
+                                </div>
+                                <span class="tech-badge audit">TAMPER-PROOF</span>
+                            </div>
+
+                            <div class="card-micro-preview">
+                                <div class="preview-audit-trail">
+                                    <div class="audit-item">
+                                        <span class="a-time">19:42:10</span>
+                                        <div class="a-info">
+                                            <span class="a-title">Price Override · ₹2,899</span>
+                                            <span class="a-author">by Dhrumil (ID: 001)</span>
+                                        </div>
+                                        <button class="btn-rollback" type="button">Rollback ↺</button>
+                                    </div>
+                                    <div class="audit-item">
+                                        <span class="a-time">18:15:04</span>
+                                        <div class="a-info">
+                                            <span class="a-title">Tax Rule · IGST 18%</span>
+                                            <span class="a-author">by Rajesh K.</span>
+                                        </div>
+                                        <span class="a-verified">Verified ✓</span>
+                                    </div>
+                                    <div class="audit-footer">
+                                        <span class="hash-tag">SHA-256: 9b2d...f74a</span>
+                                        <span class="chain-status">Immutable</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="curved-card-body">
+                                <h3>Activity Log &amp; 1-Click Undo</h3>
+                                <p>Every price tweak, permission change, and order modification is logged with IP, timestamp, and instant undo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">// 04 · IMMUTABLE LOGS</div>
+                </div>
+
+                <!-- Card 5: Financials & Direct Exports -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-top-left">
+                                    <div class="tech-icon-pill">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                                    </div>
+                                    <span class="tech-index">// METR.05</span>
+                                </div>
+                                <span class="tech-badge metrics">+31.4% MoM</span>
+                            </div>
+
+                            <div class="card-micro-preview">
+                                <div class="preview-finance-export">
+                                    <div class="fin-header">
                                         <div>
-                                            <span class="p-label">Price:</span>
-                                            <div class="p-tag strike">₹4,999</div>
+                                            <span class="fin-label">OCTOBER GROSS GMV</span>
+                                            <div class="fin-amount">₹38,42,800</div>
                                         </div>
-                                        <div>
-                                            <span class="p-label">Live Price:</span>
-                                            <div class="p-tag active">₹3,499</div>
-                                        </div>
+                                        <span class="growth-tag">▲ ₹9.1L</span>
                                     </div>
-                                    <div class="p-action-bar">
-                                        <span class="p-status">Status: <b>Published</b></span>
-                                        <button class="p-btn-mini" type="button">Update ⚡</button>
+                                    <div class="stepped-bars">
+                                        <div class="s-bar" style="height:42%"><span>W1</span></div>
+                                        <div class="s-bar" style="height:60%"><span>W2</span></div>
+                                        <div class="s-bar" style="height:52%"><span>W3</span></div>
+                                        <div class="s-bar" style="height:78%"><span>W4</span></div>
+                                        <div class="s-bar peak" style="height:96%"><span>W5</span></div>
+                                    </div>
+                                    <div class="export-actions">
+                                        <span class="exp-tag">GSTR-1 .CSV</span>
+                                        <span class="exp-tag">TALLY XML</span>
+                                        <span class="exp-tag">AUDIT .PDF</span>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="curved-card-body">
-                                <h3>Edit anything</h3>
-                                <p>Pages, prices, banners, menus, products and content — from a clean admin dashboard.</p>
+                                <h3>Reports &amp; Direct Exports</h3>
+                                <p>Generate GST reports, sales ledgers, and inventory valuations in one click. Hand clean spreadsheets straight to your CA.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="curved-card-label">CONTENT &amp; MEDIA CMS</div>
+                    <div class="curved-card-label">// 05 · FINANCIAL EXPORTS</div>
                 </div>
 
-                <!-- Card 2: Roles & Permissions -->
+                <!-- Card 6: One Unified Architecture -->
                 <div class="curved-card-container">
                     <div class="curved-card">
                         <div class="card-glass-glow"></div>
                         <div class="curved-card-inner">
                             <div class="curved-card-top">
-                                <div class="card-icon-pill">🔐</div>
-                                <span class="card-live-badge role-badge">ACCESS MATRIX</span>
+                                <div class="card-top-left">
+                                    <div class="tech-icon-pill">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="6" height="6" rx="1"/><path d="M12 2v7"/><path d="M12 15v7"/><path d="M2 12h7"/><path d="M15 12h7"/></svg>
+                                    </div>
+                                    <span class="tech-index">// SYNC.06</span>
+                                </div>
+                                <span class="tech-badge sync">SINGLE SOURCE</span>
                             </div>
+
                             <div class="card-micro-preview">
-                                <div class="preview-roles">
-                                    <div class="role-user-item">
-                                        <div class="role-avatar admin">DK</div>
-                                        <div class="role-info"><span class="r-name">Admin (You)</span><span class="r-sub">Full access</span></div>
-                                        <span class="role-pill p-owner">Owner</span>
+                                <div class="preview-headless-hub">
+                                    <div class="hub-orchestrator-core">
+                                        <span class="hardware-led orange"></span>
+                                        <span class="core-text">RITIVERSE CORE ENGINE</span>
                                     </div>
-                                    <div class="role-user-item">
-                                        <div class="role-avatar editor">SA</div>
-                                        <div class="role-info"><span class="r-name">Sarah A.</span><span class="r-sub">Content only</span></div>
-                                        <span class="role-pill p-editor">Editor</span>
+                                    <div class="satellite-grid">
+                                        <div class="sat-node"><span class="hardware-led green"></span>Webstore · 14ms</div>
+                                        <div class="sat-node"><span class="hardware-led green"></span>iOS &amp; Android v3.4</div>
+                                        <div class="sat-node"><span class="hardware-led green"></span>WhatsApp CRM Leads</div>
+                                        <div class="sat-node"><span class="hardware-led green"></span>Warehouse ERP DB</div>
                                     </div>
-                                    <div class="permissions-checklist">
-                                        <div class="perm-item checked"><span>✓</span> Edit pages &amp; prices</div>
-                                        <div class="perm-item checked"><span>✓</span> Publish banners</div>
-                                        <div class="perm-item locked"><span>🔒</span> Delete database records</div>
-                                    </div>
+                                    <div class="hub-note">1 Database · 4 Frontends · 0 Discrepancy</div>
                                 </div>
                             </div>
+
                             <div class="curved-card-body">
-                                <h3>Roles &amp; permissions</h3>
-                                <p>Control who can view and change what — from manager to editor to viewer.</p>
+                                <h3>One Unified Architecture</h3>
+                                <p>Your website, mobile apps, WhatsApp CRM leads, and warehouse ERP all read and write to the same single database.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="curved-card-label">ROLE-BASED ACCESS</div>
+                    <div class="curved-card-label">// 06 · UNIFIED ENGINE</div>
                 </div>
 
-                <!-- Card 3: Live Preview -->
-                <div class="curved-card-container">
-                    <div class="curved-card">
-                        <div class="card-glass-glow"></div>
-                        <div class="curved-card-inner">
-                            <div class="curved-card-top">
-                                <div class="card-icon-pill">👁</div>
-                                <span class="card-live-badge live-mode">SYNC 12ms</span>
-                            </div>
-                            <div class="card-micro-preview">
-                                <div class="preview-viewport">
-                                    <div class="viewport-header">
-                                        <div class="view-dots"><span></span><span></span><span></span></div>
-                                        <div class="device-switch">
-                                            <span class="dev-item active">Desktop</span>
-                                            <span class="dev-item">Mobile</span>
-                                        </div>
-                                    </div>
-                                    <div class="viewport-canvas">
-                                        <div class="canvas-bar hero"></div>
-                                        <div class="canvas-grid-mock">
-                                            <div class="c-tile accent"></div>
-                                            <div class="c-tile"></div>
-                                        </div>
-                                        <div class="canvas-badge">Preview Mode: Active</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="curved-card-body">
-                                <h3>Live preview</h3>
-                                <p>See exactly how your changes look before they go live on the site.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="curved-card-label">REAL-TIME PREVIEW</div>
-                </div>
 
-                <!-- Card 4: Activity Log -->
-                <div class="curved-card-container">
-                    <div class="curved-card">
-                        <div class="card-glass-glow"></div>
-                        <div class="curved-card-inner">
-                            <div class="curved-card-top">
-                                <div class="card-icon-pill">📋</div>
-                                <span class="card-live-badge audit-badge">AUDIT TRAIL</span>
-                            </div>
-                            <div class="card-micro-preview">
-                                <div class="preview-log">
-                                    <div class="log-entry">
-                                        <span class="log-time">14:32</span>
-                                        <div class="log-desc"><b>Banner updated</b> · "Diwali Offer"</div>
-                                        <button class="log-undo" type="button">Undo</button>
-                                    </div>
-                                    <div class="log-entry">
-                                        <span class="log-time">14:15</span>
-                                        <div class="log-desc"><b>Price changed</b> · ₹3,499</div>
-                                        <button class="log-undo" type="button">Undo</button>
-                                    </div>
-                                    <div class="log-entry">
-                                        <span class="log-time">13:50</span>
-                                        <div class="log-desc"><b>Staff role changed</b> · Editor</div>
-                                        <span class="log-saved">Saved ✓</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="curved-card-body">
-                                <h3>Activity log</h3>
-                                <p>Track every change and identify who changed what and when.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="curved-card-label">AUDIT &amp; UNDO LOGS</div>
-                </div>
-
-                <!-- Card 5: Reports & Exports -->
-                <div class="curved-card-container">
-                    <div class="curved-card">
-                        <div class="card-glass-glow"></div>
-                        <div class="curved-card-inner">
-                            <div class="curved-card-top">
-                                <div class="card-icon-pill">📊</div>
-                                <span class="card-live-badge stat-badge">+34.8% GROWTH</span>
-                            </div>
-                            <div class="card-micro-preview">
-                                <div class="preview-reports">
-                                    <div class="report-stats">
-                                        <div><span class="r-label">Monthly Volume</span><div class="r-val">₹14.8L</div></div>
-                                        <div class="r-tag">+28.4%</div>
-                                    </div>
-                                    <div class="report-bars">
-                                        <div class="bar" style="height:35%"></div>
-                                        <div class="bar" style="height:55%"></div>
-                                        <div class="bar" style="height:45%"></div>
-                                        <div class="bar" style="height:75%"></div>
-                                        <div class="bar accent" style="height:95%"></div>
-                                    </div>
-                                    <div class="export-pills">
-                                        <span class="exp-btn">.CSV ↓</span>
-                                        <span class="exp-btn">.PDF ↓</span>
-                                        <span class="exp-btn">.XLSX ↓</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="curved-card-body">
-                                <h3>Reports &amp; exports</h3>
-                                <p>Keep business data accessible and exportable in formats you need.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="curved-card-label">METRICS &amp; EXPORTS</div>
-                </div>
-
-                <!-- Card 6: One Control Layer -->
-                <div class="curved-card-container">
-                    <div class="curved-card">
-                        <div class="card-glass-glow"></div>
-                        <div class="curved-card-inner">
-                            <div class="curved-card-top">
-                                <div class="card-icon-pill">🔗</div>
-                                <span class="card-live-badge hub-badge">ALL-IN-ONE HUB</span>
-                            </div>
-                            <div class="card-micro-preview">
-                                <div class="preview-hub">
-                                    <div class="hub-center">
-                                        <span class="flame-ico">🔥</span>
-                                        <span class="hub-title">RiTiVERSE CORE</span>
-                                    </div>
-                                    <div class="hub-connectors">
-                                        <div class="hub-node"><span class="node-dot"></span>Website</div>
-                                        <div class="hub-node"><span class="node-dot"></span>Mobile App</div>
-                                        <div class="hub-node"><span class="node-dot"></span>CRM System</div>
-                                        <div class="hub-node"><span class="node-dot"></span>ERP Operations</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="curved-card-body">
-                                <h3>One control layer</h3>
-                                <p>Manage your website, app, CRM and ERP from connected systems.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="curved-card-label">UNIFIED ARCHITECTURE</div>
-                </div>
-
-                <!-- SET 2 (Duplicate for Seamless Infinite Wrapping) -->
+                <!-- ══════════════════════════════════════════
+                     SET 2 (Infinite Wrapping Clones)
+                ══════════════════════════════════════════ -->
                 <!-- Card 1 Duplicate -->
                 <div class="curved-card-container">
                     <div class="curved-card">
                         <div class="card-glass-glow"></div>
                         <div class="curved-card-inner">
                             <div class="curved-card-top">
-                                <div class="card-icon-pill">✏️</div>
-                                <span class="card-live-badge"><span class="pulse-dot"></span>LIVE CMS</span>
+                                <div class="card-top-left">
+                                    <div class="tech-icon-pill">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                                    </div>
+                                    <span class="tech-index">// SYS.01</span>
+                                </div>
+                                <span class="tech-badge live"><span class="hardware-led green"></span>AUTO-SYNC</span>
                             </div>
+
                             <div class="card-micro-preview">
-                                <div class="preview-cms">
-                                    <div class="preview-row">
-                                        <span class="p-label">Headline:</span>
-                                        <div class="p-input">Summer Sale · 30% Off<span class="blink-cursor">|</span></div>
+                                <div class="preview-catalog-engine">
+                                    <div class="meta-row">
+                                        <span class="sku-tag">SKU: RTV-8820 · SURAT</span>
+                                        <span class="stock-pill">24 IN STOCK</span>
                                     </div>
-                                    <div class="preview-row split">
-                                        <div>
-                                            <span class="p-label">Price:</span>
-                                            <div class="p-tag strike">₹4,999</div>
-                                        </div>
-                                        <div>
-                                            <span class="p-label">Live Price:</span>
-                                            <div class="p-tag active">₹3,499</div>
-                                        </div>
+                                    <div class="product-spec">
+                                        <div class="item-title">Drop-Shoulder Heavy Tee</div>
+                                        <div class="item-sub">Apparel · SS26 Drop</div>
                                     </div>
-                                    <div class="p-action-bar">
-                                        <span class="p-status">Status: <b>Published</b></span>
-                                        <button class="p-btn-mini" type="button">Update ⚡</button>
+                                    <div class="pricing-matrix">
+                                        <div class="price-col">
+                                            <span class="m-label">MSRP</span>
+                                            <span class="price-val strike">₹2,499</span>
+                                        </div>
+                                        <div class="price-col">
+                                            <span class="m-label">LIVE PRICE</span>
+                                            <span class="price-val active">₹1,799</span>
+                                        </div>
+                                        <span class="discount-chip">-28% FLASH</span>
+                                    </div>
+                                    <div class="sync-footer">
+                                        <div class="toggle-control">
+                                            <span class="mini-toggle active"></span>
+                                            <span class="toggle-text">Storefront Sync: Active</span>
+                                        </div>
+                                        <span class="commit-time">Synced 2s ago</span>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="curved-card-body">
-                                <h3>Edit anything</h3>
-                                <p>Pages, prices, banners, menus, products and content — from a clean admin dashboard.</p>
+                                <h3>Live Pricing &amp; Catalog</h3>
+                                <p>Update inventory, adjust flash-sale discounts, and publish catalog items across web and app in seconds.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="curved-card-label">CONTENT &amp; MEDIA CMS</div>
+                    <div class="curved-card-label">// 01 · REAL-TIME COMMERCE</div>
                 </div>
 
                 <!-- Card 2 Duplicate -->
@@ -600,35 +683,48 @@ ob_start();
                         <div class="card-glass-glow"></div>
                         <div class="curved-card-inner">
                             <div class="curved-card-top">
-                                <div class="card-icon-pill">🔐</div>
-                                <span class="card-live-badge role-badge">ACCESS MATRIX</span>
+                                <div class="card-top-left">
+                                    <div class="tech-icon-pill">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                                    </div>
+                                    <span class="tech-index">// PERM.02</span>
+                                </div>
+                                <span class="tech-badge security">RBAC MATRIX</span>
                             </div>
+
                             <div class="card-micro-preview">
-                                <div class="preview-roles">
-                                    <div class="role-user-item">
-                                        <div class="role-avatar admin">DK</div>
-                                        <div class="role-info"><span class="r-name">Admin (You)</span><span class="r-sub">Full access</span></div>
-                                        <span class="role-pill p-owner">Owner</span>
+                                <div class="preview-access-matrix">
+                                    <div class="user-row">
+                                        <div class="u-avatar super">DK</div>
+                                        <div class="u-meta">
+                                            <span class="u-name">Dhrumil (Founder)</span>
+                                            <span class="u-scope">Superadmin · Full Access</span>
+                                        </div>
+                                        <span class="role-chip super">OWNER</span>
                                     </div>
-                                    <div class="role-user-item">
-                                        <div class="role-avatar editor">SA</div>
-                                        <div class="role-info"><span class="r-name">Sarah A.</span><span class="r-sub">Content only</span></div>
-                                        <span class="role-pill p-editor">Editor</span>
+                                    <div class="user-row">
+                                        <div class="u-avatar finance">RK</div>
+                                        <div class="u-meta">
+                                            <span class="u-name">Rajesh K. (Accounts)</span>
+                                            <span class="u-scope">Finance &amp; GST Invoicing</span>
+                                        </div>
+                                        <span class="role-chip finance">FINANCE</span>
                                     </div>
-                                    <div class="permissions-checklist">
-                                        <div class="perm-item checked"><span>✓</span> Edit pages &amp; prices</div>
-                                        <div class="perm-item checked"><span>✓</span> Publish banners</div>
-                                        <div class="perm-item locked"><span>🔒</span> Delete database records</div>
+                                    <div class="hairline-perms">
+                                        <div class="perm-rule allow"><span>✓</span> Export GST &amp; P&amp;L Statements</div>
+                                        <div class="perm-rule allow"><span>✓</span> Approve Vendor Disbursements</div>
+                                        <div class="perm-rule deny"><span>✕</span> Delete Customer Master DB 🔒</div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="curved-card-body">
-                                <h3>Roles &amp; permissions</h3>
-                                <p>Control who can view and change what — from manager to editor to viewer.</p>
+                                <h3>Granular Access Matrix</h3>
+                                <p>Define exactly who can edit prices, view financial statements, or publish content — from managers to accountants.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="curved-card-label">ROLE-BASED ACCESS</div>
+                    <div class="curved-card-label">// 02 · ENTERPRISE SECURITY</div>
                 </div>
 
                 <!-- Card 3 Duplicate -->
@@ -637,35 +733,40 @@ ob_start();
                         <div class="card-glass-glow"></div>
                         <div class="curved-card-inner">
                             <div class="curved-card-top">
-                                <div class="card-icon-pill">👁</div>
-                                <span class="card-live-badge live-mode">SYNC 12ms</span>
+                                <div class="card-top-left">
+                                    <div class="tech-icon-pill">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                                    </div>
+                                    <span class="tech-index">// STAGE.03</span>
+                                </div>
+                                <span class="tech-badge staging"><span class="hardware-led orange"></span>8ms SYNC</span>
                             </div>
+
                             <div class="card-micro-preview">
-                                <div class="preview-viewport">
-                                    <div class="viewport-header">
-                                        <div class="view-dots"><span></span><span></span><span></span></div>
-                                        <div class="device-switch">
-                                            <span class="dev-item active">Desktop</span>
-                                            <span class="dev-item">Mobile</span>
+                                <div class="preview-staging-env">
+                                    <div class="viewport-selector-bar">
+                                        <span class="v-tab">Desktop 1440</span>
+                                        <span class="v-tab active">iPhone 15 Pro</span>
+                                    </div>
+                                    <div class="rendered-mini-phone">
+                                        <div class="phone-notch"></div>
+                                        <div class="phone-screen-content">
+                                            <span class="phone-eyebrow">RITIVERSE / MONSOON</span>
+                                            <div class="phone-headline">Flash Drop is Live.</div>
+                                            <div class="phone-btn">Explore Drop →</div>
                                         </div>
                                     </div>
-                                    <div class="viewport-canvas">
-                                        <div class="canvas-bar hero"></div>
-                                        <div class="canvas-grid-mock">
-                                            <div class="c-tile accent"></div>
-                                            <div class="c-tile"></div>
-                                        </div>
-                                        <div class="canvas-badge">Preview Mode: Active</div>
-                                    </div>
+                                    <div class="staging-tag-pill">● STAGING PREVIEW · NOT YET LIVE</div>
                                 </div>
                             </div>
+
                             <div class="curved-card-body">
-                                <h3>Live preview</h3>
-                                <p>See exactly how your changes look before they go live on the site.</p>
+                                <h3>Side-by-Side Staging</h3>
+                                <p>Inspect how layout, banner, and typography edits render on mobile and desktop viewports before pushing live.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="curved-card-label">REAL-TIME PREVIEW</div>
+                    <div class="curved-card-label">// 03 · RESPONSIVE STAGING</div>
                 </div>
 
                 <!-- Card 4 Duplicate -->
@@ -674,35 +775,47 @@ ob_start();
                         <div class="card-glass-glow"></div>
                         <div class="curved-card-inner">
                             <div class="curved-card-top">
-                                <div class="card-icon-pill">📋</div>
-                                <span class="card-live-badge audit-badge">AUDIT TRAIL</span>
+                                <div class="card-top-left">
+                                    <div class="tech-icon-pill">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+                                    </div>
+                                    <span class="tech-index">// AUDIT.04</span>
+                                </div>
+                                <span class="tech-badge audit">TAMPER-PROOF</span>
                             </div>
+
                             <div class="card-micro-preview">
-                                <div class="preview-log">
-                                    <div class="log-entry">
-                                        <span class="log-time">14:32</span>
-                                        <div class="log-desc"><b>Banner updated</b> · "Diwali Offer"</div>
-                                        <button class="log-undo" type="button">Undo</button>
+                                <div class="preview-audit-trail">
+                                    <div class="audit-item">
+                                        <span class="a-time">19:42:10</span>
+                                        <div class="a-info">
+                                            <span class="a-title">Price Override · ₹2,899</span>
+                                            <span class="a-author">by Dhrumil (ID: 001)</span>
+                                        </div>
+                                        <button class="btn-rollback" type="button">Rollback ↺</button>
                                     </div>
-                                    <div class="log-entry">
-                                        <span class="log-time">14:15</span>
-                                        <div class="log-desc"><b>Price changed</b> · ₹3,499</div>
-                                        <button class="log-undo" type="button">Undo</button>
+                                    <div class="audit-item">
+                                        <span class="a-time">18:15:04</span>
+                                        <div class="a-info">
+                                            <span class="a-title">Tax Rule · IGST 18%</span>
+                                            <span class="a-author">by Rajesh K.</span>
+                                        </div>
+                                        <span class="a-verified">Verified ✓</span>
                                     </div>
-                                    <div class="log-entry">
-                                        <span class="log-time">13:50</span>
-                                        <div class="log-desc"><b>Staff role changed</b> · Editor</div>
-                                        <span class="log-saved">Saved ✓</span>
+                                    <div class="audit-footer">
+                                        <span class="hash-tag">SHA-256: 9b2d...f74a</span>
+                                        <span class="chain-status">Immutable</span>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="curved-card-body">
-                                <h3>Activity log</h3>
-                                <p>Track every change and identify who changed what and when.</p>
+                                <h3>Activity Log &amp; 1-Click Undo</h3>
+                                <p>Every price tweak, permission change, and order modification is logged with IP, timestamp, and instant undo.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="curved-card-label">AUDIT &amp; UNDO LOGS</div>
+                    <div class="curved-card-label">// 04 · IMMUTABLE LOGS</div>
                 </div>
 
                 <!-- Card 5 Duplicate -->
@@ -711,36 +824,46 @@ ob_start();
                         <div class="card-glass-glow"></div>
                         <div class="curved-card-inner">
                             <div class="curved-card-top">
-                                <div class="card-icon-pill">📊</div>
-                                <span class="card-live-badge stat-badge">+34.8% GROWTH</span>
+                                <div class="card-top-left">
+                                    <div class="tech-icon-pill">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                                    </div>
+                                    <span class="tech-index">// METR.05</span>
+                                </div>
+                                <span class="tech-badge metrics">+31.4% MoM</span>
                             </div>
+
                             <div class="card-micro-preview">
-                                <div class="preview-reports">
-                                    <div class="report-stats">
-                                        <div><span class="r-label">Monthly Volume</span><div class="r-val">₹14.8L</div></div>
-                                        <div class="r-tag">+28.4%</div>
+                                <div class="preview-finance-export">
+                                    <div class="fin-header">
+                                        <div>
+                                            <span class="fin-label">OCTOBER GROSS GMV</span>
+                                            <div class="fin-amount">₹38,42,800</div>
+                                        </div>
+                                        <span class="growth-tag">▲ ₹9.1L</span>
                                     </div>
-                                    <div class="report-bars">
-                                        <div class="bar" style="height:35%"></div>
-                                        <div class="bar" style="height:55%"></div>
-                                        <div class="bar" style="height:45%"></div>
-                                        <div class="bar" style="height:75%"></div>
-                                        <div class="bar accent" style="height:95%"></div>
+                                    <div class="stepped-bars">
+                                        <div class="s-bar" style="height:42%"><span>W1</span></div>
+                                        <div class="s-bar" style="height:60%"><span>W2</span></div>
+                                        <div class="s-bar" style="height:52%"><span>W3</span></div>
+                                        <div class="s-bar" style="height:78%"><span>W4</span></div>
+                                        <div class="s-bar peak" style="height:96%"><span>W5</span></div>
                                     </div>
-                                    <div class="export-pills">
-                                        <span class="exp-btn">.CSV ↓</span>
-                                        <span class="exp-btn">.PDF ↓</span>
-                                        <span class="exp-btn">.XLSX ↓</span>
+                                    <div class="export-actions">
+                                        <span class="exp-tag">GSTR-1 .CSV</span>
+                                        <span class="exp-tag">TALLY XML</span>
+                                        <span class="exp-tag">AUDIT .PDF</span>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="curved-card-body">
-                                <h3>Reports &amp; exports</h3>
-                                <p>Keep business data accessible and exportable in formats you need.</p>
+                                <h3>Reports &amp; Direct Exports</h3>
+                                <p>Generate GST reports, sales ledgers, and inventory valuations in one click. Hand clean spreadsheets straight to your CA.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="curved-card-label">METRICS &amp; EXPORTS</div>
+                    <div class="curved-card-label">// 05 · FINANCIAL EXPORTS</div>
                 </div>
 
                 <!-- Card 6 Duplicate -->
@@ -749,30 +872,38 @@ ob_start();
                         <div class="card-glass-glow"></div>
                         <div class="curved-card-inner">
                             <div class="curved-card-top">
-                                <div class="card-icon-pill">🔗</div>
-                                <span class="card-live-badge hub-badge">ALL-IN-ONE HUB</span>
+                                <div class="card-top-left">
+                                    <div class="tech-icon-pill">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="6" height="6" rx="1"/><path d="M12 2v7"/><path d="M12 15v7"/><path d="M2 12h7"/><path d="M15 12h7"/></svg>
+                                    </div>
+                                    <span class="tech-index">// SYNC.06</span>
+                                </div>
+                                <span class="tech-badge sync">SINGLE SOURCE</span>
                             </div>
+
                             <div class="card-micro-preview">
-                                <div class="preview-hub">
-                                    <div class="hub-center">
-                                        <span class="flame-ico">🔥</span>
-                                        <span class="hub-title">RiTiVERSE CORE</span>
+                                <div class="preview-headless-hub">
+                                    <div class="hub-orchestrator-core">
+                                        <span class="hardware-led orange"></span>
+                                        <span class="core-text">RITIVERSE CORE ENGINE</span>
                                     </div>
-                                    <div class="hub-connectors">
-                                        <div class="hub-node"><span class="node-dot"></span>Website</div>
-                                        <div class="hub-node"><span class="node-dot"></span>Mobile App</div>
-                                        <div class="hub-node"><span class="node-dot"></span>CRM System</div>
-                                        <div class="hub-node"><span class="node-dot"></span>ERP Operations</div>
+                                    <div class="satellite-grid">
+                                        <div class="sat-node"><span class="hardware-led green"></span>Webstore · 14ms</div>
+                                        <div class="sat-node"><span class="hardware-led green"></span>iOS &amp; Android v3.4</div>
+                                        <div class="sat-node"><span class="hardware-led green"></span>WhatsApp CRM Leads</div>
+                                        <div class="sat-node"><span class="hardware-led green"></span>Warehouse ERP DB</div>
                                     </div>
+                                    <div class="hub-note">1 Database · 4 Frontends · 0 Discrepancy</div>
                                 </div>
                             </div>
+
                             <div class="curved-card-body">
-                                <h3>One control layer</h3>
-                                <p>Manage your website, app, CRM and ERP from connected systems.</p>
+                                <h3>One Unified Architecture</h3>
+                                <p>Your website, mobile apps, WhatsApp CRM leads, and warehouse ERP all read and write to the same single database.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="curved-card-label">UNIFIED ARCHITECTURE</div>
+                    <div class="curved-card-label">// 06 · UNIFIED ENGINE</div>
                 </div>
 
             </div>
