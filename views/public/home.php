@@ -916,20 +916,167 @@ ob_start();
 </section>
 
 <!-- ══════════════════════════════════════════
-     WHY RiTiVERSE
+     WHY RiTiVERSE (WITH ANIMATED LIGHT STREAM)
 ══════════════════════════════════════════ -->
-<section class="differentiator-section container" id="solutions">
-    <div class="section-header reveal">
-        <h2>Why businesses choose <span class="gradient-text">RiTiVERSE</span></h2>
-        <p>Not a template. Not a generic CMS. A system built around your exact business workflow.</p>
-    </div>
-    <div class="diff-grid stagger reveal">
-        <div class="diff-card"><h3>Fit over features</h3><p>Software designed around the client's workflow instead of forcing the business into a generic template.</p></div>
-        <div class="diff-card"><h3>Business-controlled</h3><p>The client can manage content and business information from the admin panel — no developer needed.</p></div>
-        <div class="diff-card"><h3>Connected systems</h3><p>Website, CRM, ERP and business operations can share connected data seamlessly.</p></div>
-        <div class="diff-card"><h3>Built for evolution</h3><p>The system continues to evolve after launch — growing as your business grows.</p></div>
-        <div class="diff-card"><h3>Full ownership</h3><p>Your data, your server, your code. No lock-in to third-party platforms.</p></div>
-        <div class="diff-card"><h3>Ongoing support</h3><p>The relationship doesn't end at launch — we stay with you through every phase.</p></div>
+<!-- ══════════════════════════════════════════
+     WHY RiTiVERSE (TOP-TO-BOTTOM LIGHT STREAM TREE)
+══════════════════════════════════════════ -->
+<section class="differentiator-section" id="solutions">
+    <div class="differentiator-content container">
+        <div class="section-header reveal">
+            <span class="diff-eyebrow">// ARCHITECTURAL ADVANTAGE</span>
+            <h2>Why businesses choose <span class="gradient-text">RiTiVERSE</span></h2>
+            <p>Not a template. Not a generic CMS. A custom business system engineered around your exact operations.</p>
+        </div>
+
+        <!-- ══════════════════════════════════════════
+             VERTICAL LIGHT STREAM TREE (TOP-TO-BOTTOM)
+        ══════════════════════════════════════════ -->
+        <div class="diff-tree-wrapper">
+            <!-- Central Vertical Spine with Downward Light Stream -->
+            <div class="diff-tree-spine" aria-hidden="true">
+                <div class="spine-base-line"></div>
+                <div class="spine-photon-beam"></div>
+                <div class="spine-ambient-glow"></div>
+            </div>
+
+            <!-- Alternating Cards Tree Rows -->
+            <div class="diff-tree-rows">
+
+                <!-- Row 01: Right Side -->
+                <div class="diff-tree-row right-side reveal" data-delay="100">
+                    <div class="diff-tree-branch">
+                        <div class="branch-node"></div>
+                        <div class="branch-line"></div>
+                        <div class="branch-pulse"></div>
+                    </div>
+                    <div class="diff-card">
+                        <div class="diff-card-header">
+                            <div class="diff-icon-box">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                            </div>
+                            <span class="diff-index">// 01</span>
+                        </div>
+                        <h3>Fit over features</h3>
+                        <p>Software designed around your specific workflow rather than forcing your team into rigid, generic templates.</p>
+                        <div class="diff-card-footer">
+                            <span class="diff-tag">100% BESPOKE ARCHITECTURE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 02: Left Side -->
+                <div class="diff-tree-row left-side reveal" data-delay="150">
+                    <div class="diff-tree-branch">
+                        <div class="branch-node"></div>
+                        <div class="branch-line"></div>
+                        <div class="branch-pulse"></div>
+                    </div>
+                    <div class="diff-card">
+                        <div class="diff-card-header">
+                            <div class="diff-icon-box">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                            </div>
+                            <span class="diff-index">// 02</span>
+                        </div>
+                        <h3>Business-controlled</h3>
+                        <p>Manage content, catalogs, pricing rules, and access control from a clean admin panel — zero developer tickets required.</p>
+                        <div class="diff-card-footer">
+                            <span class="diff-tag">ZERO CODE DEPENDENCY</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 03: Right Side -->
+                <div class="diff-tree-row right-side reveal" data-delay="200">
+                    <div class="diff-tree-branch">
+                        <div class="branch-node"></div>
+                        <div class="branch-line"></div>
+                        <div class="branch-pulse"></div>
+                    </div>
+                    <div class="diff-card">
+                        <div class="diff-card-header">
+                            <div class="diff-icon-box">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/><polyline points="13 14 16 11 19 14"/></svg>
+                            </div>
+                            <span class="diff-index">// 03</span>
+                        </div>
+                        <h3>Connected systems</h3>
+                        <p>Website, mobile application, CRM pipeline, and warehouse ERP share real-time synchronized data without discrepancies.</p>
+                        <div class="diff-card-footer">
+                            <span class="diff-tag">REAL-TIME DATA SYNC</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 04: Left Side -->
+                <div class="diff-tree-row left-side reveal" data-delay="250">
+                    <div class="diff-tree-branch">
+                        <div class="branch-node"></div>
+                        <div class="branch-line"></div>
+                        <div class="branch-pulse"></div>
+                    </div>
+                    <div class="diff-card">
+                        <div class="diff-card-header">
+                            <div class="diff-icon-box">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+                            </div>
+                            <span class="diff-index">// 04</span>
+                        </div>
+                        <h3>Built for evolution</h3>
+                        <p>Modular architecture engineered to expand effortlessly as your product catalog, order volume, and branches multiply.</p>
+                        <div class="diff-card-footer">
+                            <span class="diff-tag">MODULAR EXPANSION</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 05: Right Side -->
+                <div class="diff-tree-row right-side reveal" data-delay="300">
+                    <div class="diff-tree-branch">
+                        <div class="branch-node"></div>
+                        <div class="branch-line"></div>
+                        <div class="branch-pulse"></div>
+                    </div>
+                    <div class="diff-card">
+                        <div class="diff-card-header">
+                            <div class="diff-icon-box">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                            </div>
+                            <span class="diff-index">// 05</span>
+                        </div>
+                        <h3>Full ownership</h3>
+                        <p>Your server, your database, your proprietary source code. Zero third-party lock-in and zero monthly platform taxes.</p>
+                        <div class="diff-card-footer">
+                            <span class="diff-tag">100% PROPRIETARY IP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 06: Left Side -->
+                <div class="diff-tree-row left-side reveal" data-delay="350">
+                    <div class="diff-tree-branch">
+                        <div class="branch-node"></div>
+                        <div class="branch-line"></div>
+                        <div class="branch-pulse"></div>
+                    </div>
+                    <div class="diff-card">
+                        <div class="diff-card-header">
+                            <div class="diff-icon-box">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            </div>
+                            <span class="diff-index">// 06</span>
+                        </div>
+                        <h3>Ongoing support</h3>
+                        <p>Direct access to dedicated engineering founders throughout architecture, deployment, and ongoing post-launch scaling.</p>
+                        <div class="diff-card-footer">
+                            <span class="diff-tag">FOUNDER-LED PARTNERSHIP</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 </section>
 
