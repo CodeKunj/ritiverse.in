@@ -196,4 +196,152 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+
+    /* ─── 8. 3D HALF-CURVED ADMIN CAROUSEL (OPENMONTAGE STYLE) ─── */
+    const curvedWrapper = document.getElementById('curvedCarousel');
+    const curvedStage = document.getElementById('curvedStage');
+    const curvedTrack = document.getElementById('curvedTrack');
+    const btnPrev = document.getElementById('carouselPrev');
+    const btnNext = document.getElementById('carouselNext');
+
+    if (curvedWrapper && curvedStage && curvedTrack) {
+        const cards = Array.from(curvedTrack.querySelectorAll('.curved-card-container'));
+        const totalCards = cards.length;
+
+        let scrollX = 0;
+        const BASE_SPEED = 0.55; // slow speed continuously moving towards left
+        let currentSpeed = BASE_SPEED;
+        let isHovered = false;
+        let isDragging = false;
+        let lastX = 0;
+        let lastTime = 0;
+        let dragVelocity = 0;
+
+        function getCardMetrics() {
+            const stageWidth = curvedStage.clientWidth || window.innerWidth;
+            const isMobile = window.innerWidth <= 768;
+            const cardWidth = isMobile ? 280 : 326;
+            const gap = isMobile ? 20 : 32;
+            const slotWidth = cardWidth + gap;
+            const totalWidth = totalCards * slotWidth;
+            return { stageWidth, cardWidth, gap, slotWidth, totalWidth };
+        }
+
+        // Slow down smoothly when hovering over the showcase
+        curvedWrapper.addEventListener('mouseenter', () => { isHovered = true; });
+        curvedWrapper.addEventListener('mouseleave', () => {
+            isHovered = false;
+            isDragging = false;
+        });
+
+        // Pointer / touch drag interaction
+        curvedWrapper.addEventListener('pointerdown', (e) => {
+            if (e.target.closest('.carousel-nav-btn')) return;
+            isDragging = true;
+            lastX = e.clientX;
+            lastTime = performance.now();
+            dragVelocity = 0;
+        });
+
+        window.addEventListener('pointermove', (e) => {
+            if (!isDragging) return;
+            const now = performance.now();
+            const deltaX = e.clientX - lastX;
+            const dt = Math.max(1, now - lastTime);
+
+            scrollX -= deltaX;
+            dragVelocity = -deltaX / dt * 14;
+
+            lastX = e.clientX;
+            lastTime = now;
+        });
+
+        const stopDrag = () => {
+            if (isDragging) {
+                isDragging = false;
+            }
+        };
+
+        window.addEventListener('pointerup', stopDrag);
+        window.addEventListener('pointercancel', stopDrag);
+
+        // Navigation button nudge
+        if (btnPrev) {
+            btnPrev.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const { slotWidth } = getCardMetrics();
+                dragVelocity = -slotWidth * 0.08;
+            });
+        }
+        if (btnNext) {
+            btnNext.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const { slotWidth } = getCardMetrics();
+                dragVelocity = slotWidth * 0.08;
+            });
+        }
+
+        function renderCurvedFrame() {
+            const { stageWidth, cardWidth, slotWidth, totalWidth } = getCardMetrics();
+
+            if (!isDragging) {
+                // If hovered, slow to gentle crawl, else cruise at BASE_SPEED
+                const targetSpeed = isHovered ? 0.06 : BASE_SPEED;
+                currentSpeed += (targetSpeed - currentSpeed) * 0.06;
+
+                // Inertia decay
+                dragVelocity *= 0.94;
+                if (Math.abs(dragVelocity) < 0.01) dragVelocity = 0;
+
+                scrollX += currentSpeed + dragVelocity;
+            }
+
+            const centerX = stageWidth / 2;
+
+            cards.forEach((card, index) => {
+                // Base slot position in the virtual infinite strip
+                const rawX = (index * slotWidth) - scrollX;
+
+                // Normalized wrap around totalWidth
+                let wrappedX = ((rawX % totalWidth) + totalWidth) % totalWidth;
+
+                // Center the wrapped span around the viewport
+                let distFromCenter = wrappedX + cardWidth / 2 - centerX;
+                if (distFromCenter > totalWidth / 2) {
+                    distFromCenter -= totalWidth;
+                } else if (distFromCenter < -totalWidth / 2) {
+                    distFromCenter += totalWidth;
+                }
+
+                const cardScreenX = centerX + distFromCenter - cardWidth / 2;
+
+                // Half-curved 3D cylinder projection
+                const norm = distFromCenter / (stageWidth * 0.52);
+
+                // Rotate around Y-axis to angle inward towards viewer
+                const rotateY = -norm * 25; // degrees
+
+                // Curve backward along Z-axis (cylinder depth)
+                const translateZ = -Math.min(Math.pow(norm, 2) * 110, 260);
+
+                // Subtle arc lift along Y-axis
+                const translateY = Math.min(Math.pow(norm, 2) * 15, 45);
+
+                // Subtle scale drop toward edges
+                const scale = Math.max(0.85, 1 - Math.abs(norm) * 0.08);
+
+                // Edge fade
+                const opacity = Math.max(0.12, 1 - Math.pow(Math.abs(norm) * 0.65, 2));
+
+                card.style.transform = `translate3d(${cardScreenX}px, ${translateY}px, ${translateZ}px) rotateY(${rotateY}deg) scale(${scale})`;
+                card.style.opacity = opacity.toFixed(3);
+                card.style.zIndex = Math.round(100 - Math.abs(distFromCenter));
+            });
+
+            requestAnimationFrame(renderCurvedFrame);
+        }
+
+        requestAnimationFrame(renderCurvedFrame);
+    }
+
 });

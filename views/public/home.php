@@ -312,18 +312,475 @@ ob_start();
 <!-- ══════════════════════════════════════════
      ADMIN DEEP DIVE
 ══════════════════════════════════════════ -->
-<section class="admin-deep-dive container" id="admin-panel">
+<section class="admin-curved-showcase" id="admin-panel">
     <div class="section-header reveal">
+        <span class="curved-section-pill">⚡ THE ADMIN ADVANTAGE</span>
         <h2>Everything on your site,<br><span class="gradient-text">editable by you.</span></h2>
         <p>Change content, prices, users, menus and business data from one control panel — without depending on a developer.</p>
     </div>
-    <div class="capability-grid stagger reveal">
-        <div class="cap-card"><h3>✏ Edit anything</h3><p>Pages, prices, banners, menus, products and content — from a clean admin dashboard.</p></div>
-        <div class="cap-card"><h3>🔐 Roles &amp; permissions</h3><p>Control who can view and change what — from manager to editor to viewer.</p></div>
-        <div class="cap-card"><h3>👁 Live preview</h3><p>See exactly how your changes look before they go live on the site.</p></div>
-        <div class="cap-card"><h3>📋 Activity log</h3><p>Track every change and identify who changed what and when.</p></div>
-        <div class="cap-card"><h3>📊 Reports &amp; exports</h3><p>Keep business data accessible and exportable in formats you need.</p></div>
-        <div class="cap-card"><h3>🔗 One control layer</h3><p>Manage your website, app, CRM and ERP from connected systems.</p></div>
+
+    <!-- 3D Curved Carousel Wrapper -->
+    <div class="curved-carousel-wrapper" id="curvedCarousel">
+        <div class="curved-edge-gradient left"></div>
+        <div class="curved-edge-gradient right"></div>
+
+        <button class="carousel-nav-btn prev" id="carouselPrev" aria-label="Previous card">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+
+        <div class="curved-carousel-stage" id="curvedStage">
+            <div class="curved-carousel-track" id="curvedTrack">
+
+                <!-- SET 1 -->
+                <!-- Card 1: Edit Anything -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-icon-pill">✏️</div>
+                                <span class="card-live-badge"><span class="pulse-dot"></span>LIVE CMS</span>
+                            </div>
+                            <div class="card-micro-preview">
+                                <div class="preview-cms">
+                                    <div class="preview-row">
+                                        <span class="p-label">Headline:</span>
+                                        <div class="p-input">Summer Sale · 30% Off<span class="blink-cursor">|</span></div>
+                                    </div>
+                                    <div class="preview-row split">
+                                        <div>
+                                            <span class="p-label">Price:</span>
+                                            <div class="p-tag strike">₹4,999</div>
+                                        </div>
+                                        <div>
+                                            <span class="p-label">Live Price:</span>
+                                            <div class="p-tag active">₹3,499</div>
+                                        </div>
+                                    </div>
+                                    <div class="p-action-bar">
+                                        <span class="p-status">Status: <b>Published</b></span>
+                                        <button class="p-btn-mini" type="button">Update ⚡</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curved-card-body">
+                                <h3>Edit anything</h3>
+                                <p>Pages, prices, banners, menus, products and content — from a clean admin dashboard.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">CONTENT &amp; MEDIA CMS</div>
+                </div>
+
+                <!-- Card 2: Roles & Permissions -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-icon-pill">🔐</div>
+                                <span class="card-live-badge role-badge">ACCESS MATRIX</span>
+                            </div>
+                            <div class="card-micro-preview">
+                                <div class="preview-roles">
+                                    <div class="role-user-item">
+                                        <div class="role-avatar admin">DK</div>
+                                        <div class="role-info"><span class="r-name">Admin (You)</span><span class="r-sub">Full access</span></div>
+                                        <span class="role-pill p-owner">Owner</span>
+                                    </div>
+                                    <div class="role-user-item">
+                                        <div class="role-avatar editor">SA</div>
+                                        <div class="role-info"><span class="r-name">Sarah A.</span><span class="r-sub">Content only</span></div>
+                                        <span class="role-pill p-editor">Editor</span>
+                                    </div>
+                                    <div class="permissions-checklist">
+                                        <div class="perm-item checked"><span>✓</span> Edit pages &amp; prices</div>
+                                        <div class="perm-item checked"><span>✓</span> Publish banners</div>
+                                        <div class="perm-item locked"><span>🔒</span> Delete database records</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curved-card-body">
+                                <h3>Roles &amp; permissions</h3>
+                                <p>Control who can view and change what — from manager to editor to viewer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">ROLE-BASED ACCESS</div>
+                </div>
+
+                <!-- Card 3: Live Preview -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-icon-pill">👁</div>
+                                <span class="card-live-badge live-mode">SYNC 12ms</span>
+                            </div>
+                            <div class="card-micro-preview">
+                                <div class="preview-viewport">
+                                    <div class="viewport-header">
+                                        <div class="view-dots"><span></span><span></span><span></span></div>
+                                        <div class="device-switch">
+                                            <span class="dev-item active">Desktop</span>
+                                            <span class="dev-item">Mobile</span>
+                                        </div>
+                                    </div>
+                                    <div class="viewport-canvas">
+                                        <div class="canvas-bar hero"></div>
+                                        <div class="canvas-grid-mock">
+                                            <div class="c-tile accent"></div>
+                                            <div class="c-tile"></div>
+                                        </div>
+                                        <div class="canvas-badge">Preview Mode: Active</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curved-card-body">
+                                <h3>Live preview</h3>
+                                <p>See exactly how your changes look before they go live on the site.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">REAL-TIME PREVIEW</div>
+                </div>
+
+                <!-- Card 4: Activity Log -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-icon-pill">📋</div>
+                                <span class="card-live-badge audit-badge">AUDIT TRAIL</span>
+                            </div>
+                            <div class="card-micro-preview">
+                                <div class="preview-log">
+                                    <div class="log-entry">
+                                        <span class="log-time">14:32</span>
+                                        <div class="log-desc"><b>Banner updated</b> · "Diwali Offer"</div>
+                                        <button class="log-undo" type="button">Undo</button>
+                                    </div>
+                                    <div class="log-entry">
+                                        <span class="log-time">14:15</span>
+                                        <div class="log-desc"><b>Price changed</b> · ₹3,499</div>
+                                        <button class="log-undo" type="button">Undo</button>
+                                    </div>
+                                    <div class="log-entry">
+                                        <span class="log-time">13:50</span>
+                                        <div class="log-desc"><b>Staff role changed</b> · Editor</div>
+                                        <span class="log-saved">Saved ✓</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curved-card-body">
+                                <h3>Activity log</h3>
+                                <p>Track every change and identify who changed what and when.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">AUDIT &amp; UNDO LOGS</div>
+                </div>
+
+                <!-- Card 5: Reports & Exports -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-icon-pill">📊</div>
+                                <span class="card-live-badge stat-badge">+34.8% GROWTH</span>
+                            </div>
+                            <div class="card-micro-preview">
+                                <div class="preview-reports">
+                                    <div class="report-stats">
+                                        <div><span class="r-label">Monthly Volume</span><div class="r-val">₹14.8L</div></div>
+                                        <div class="r-tag">+28.4%</div>
+                                    </div>
+                                    <div class="report-bars">
+                                        <div class="bar" style="height:35%"></div>
+                                        <div class="bar" style="height:55%"></div>
+                                        <div class="bar" style="height:45%"></div>
+                                        <div class="bar" style="height:75%"></div>
+                                        <div class="bar accent" style="height:95%"></div>
+                                    </div>
+                                    <div class="export-pills">
+                                        <span class="exp-btn">.CSV ↓</span>
+                                        <span class="exp-btn">.PDF ↓</span>
+                                        <span class="exp-btn">.XLSX ↓</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curved-card-body">
+                                <h3>Reports &amp; exports</h3>
+                                <p>Keep business data accessible and exportable in formats you need.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">METRICS &amp; EXPORTS</div>
+                </div>
+
+                <!-- Card 6: One Control Layer -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-icon-pill">🔗</div>
+                                <span class="card-live-badge hub-badge">ALL-IN-ONE HUB</span>
+                            </div>
+                            <div class="card-micro-preview">
+                                <div class="preview-hub">
+                                    <div class="hub-center">
+                                        <span class="flame-ico">🔥</span>
+                                        <span class="hub-title">RiTiVERSE CORE</span>
+                                    </div>
+                                    <div class="hub-connectors">
+                                        <div class="hub-node"><span class="node-dot"></span>Website</div>
+                                        <div class="hub-node"><span class="node-dot"></span>Mobile App</div>
+                                        <div class="hub-node"><span class="node-dot"></span>CRM System</div>
+                                        <div class="hub-node"><span class="node-dot"></span>ERP Operations</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curved-card-body">
+                                <h3>One control layer</h3>
+                                <p>Manage your website, app, CRM and ERP from connected systems.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">UNIFIED ARCHITECTURE</div>
+                </div>
+
+                <!-- SET 2 (Duplicate for Seamless Infinite Wrapping) -->
+                <!-- Card 1 Duplicate -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-icon-pill">✏️</div>
+                                <span class="card-live-badge"><span class="pulse-dot"></span>LIVE CMS</span>
+                            </div>
+                            <div class="card-micro-preview">
+                                <div class="preview-cms">
+                                    <div class="preview-row">
+                                        <span class="p-label">Headline:</span>
+                                        <div class="p-input">Summer Sale · 30% Off<span class="blink-cursor">|</span></div>
+                                    </div>
+                                    <div class="preview-row split">
+                                        <div>
+                                            <span class="p-label">Price:</span>
+                                            <div class="p-tag strike">₹4,999</div>
+                                        </div>
+                                        <div>
+                                            <span class="p-label">Live Price:</span>
+                                            <div class="p-tag active">₹3,499</div>
+                                        </div>
+                                    </div>
+                                    <div class="p-action-bar">
+                                        <span class="p-status">Status: <b>Published</b></span>
+                                        <button class="p-btn-mini" type="button">Update ⚡</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curved-card-body">
+                                <h3>Edit anything</h3>
+                                <p>Pages, prices, banners, menus, products and content — from a clean admin dashboard.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">CONTENT &amp; MEDIA CMS</div>
+                </div>
+
+                <!-- Card 2 Duplicate -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-icon-pill">🔐</div>
+                                <span class="card-live-badge role-badge">ACCESS MATRIX</span>
+                            </div>
+                            <div class="card-micro-preview">
+                                <div class="preview-roles">
+                                    <div class="role-user-item">
+                                        <div class="role-avatar admin">DK</div>
+                                        <div class="role-info"><span class="r-name">Admin (You)</span><span class="r-sub">Full access</span></div>
+                                        <span class="role-pill p-owner">Owner</span>
+                                    </div>
+                                    <div class="role-user-item">
+                                        <div class="role-avatar editor">SA</div>
+                                        <div class="role-info"><span class="r-name">Sarah A.</span><span class="r-sub">Content only</span></div>
+                                        <span class="role-pill p-editor">Editor</span>
+                                    </div>
+                                    <div class="permissions-checklist">
+                                        <div class="perm-item checked"><span>✓</span> Edit pages &amp; prices</div>
+                                        <div class="perm-item checked"><span>✓</span> Publish banners</div>
+                                        <div class="perm-item locked"><span>🔒</span> Delete database records</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curved-card-body">
+                                <h3>Roles &amp; permissions</h3>
+                                <p>Control who can view and change what — from manager to editor to viewer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">ROLE-BASED ACCESS</div>
+                </div>
+
+                <!-- Card 3 Duplicate -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-icon-pill">👁</div>
+                                <span class="card-live-badge live-mode">SYNC 12ms</span>
+                            </div>
+                            <div class="card-micro-preview">
+                                <div class="preview-viewport">
+                                    <div class="viewport-header">
+                                        <div class="view-dots"><span></span><span></span><span></span></div>
+                                        <div class="device-switch">
+                                            <span class="dev-item active">Desktop</span>
+                                            <span class="dev-item">Mobile</span>
+                                        </div>
+                                    </div>
+                                    <div class="viewport-canvas">
+                                        <div class="canvas-bar hero"></div>
+                                        <div class="canvas-grid-mock">
+                                            <div class="c-tile accent"></div>
+                                            <div class="c-tile"></div>
+                                        </div>
+                                        <div class="canvas-badge">Preview Mode: Active</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curved-card-body">
+                                <h3>Live preview</h3>
+                                <p>See exactly how your changes look before they go live on the site.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">REAL-TIME PREVIEW</div>
+                </div>
+
+                <!-- Card 4 Duplicate -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-icon-pill">📋</div>
+                                <span class="card-live-badge audit-badge">AUDIT TRAIL</span>
+                            </div>
+                            <div class="card-micro-preview">
+                                <div class="preview-log">
+                                    <div class="log-entry">
+                                        <span class="log-time">14:32</span>
+                                        <div class="log-desc"><b>Banner updated</b> · "Diwali Offer"</div>
+                                        <button class="log-undo" type="button">Undo</button>
+                                    </div>
+                                    <div class="log-entry">
+                                        <span class="log-time">14:15</span>
+                                        <div class="log-desc"><b>Price changed</b> · ₹3,499</div>
+                                        <button class="log-undo" type="button">Undo</button>
+                                    </div>
+                                    <div class="log-entry">
+                                        <span class="log-time">13:50</span>
+                                        <div class="log-desc"><b>Staff role changed</b> · Editor</div>
+                                        <span class="log-saved">Saved ✓</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curved-card-body">
+                                <h3>Activity log</h3>
+                                <p>Track every change and identify who changed what and when.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">AUDIT &amp; UNDO LOGS</div>
+                </div>
+
+                <!-- Card 5 Duplicate -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-icon-pill">📊</div>
+                                <span class="card-live-badge stat-badge">+34.8% GROWTH</span>
+                            </div>
+                            <div class="card-micro-preview">
+                                <div class="preview-reports">
+                                    <div class="report-stats">
+                                        <div><span class="r-label">Monthly Volume</span><div class="r-val">₹14.8L</div></div>
+                                        <div class="r-tag">+28.4%</div>
+                                    </div>
+                                    <div class="report-bars">
+                                        <div class="bar" style="height:35%"></div>
+                                        <div class="bar" style="height:55%"></div>
+                                        <div class="bar" style="height:45%"></div>
+                                        <div class="bar" style="height:75%"></div>
+                                        <div class="bar accent" style="height:95%"></div>
+                                    </div>
+                                    <div class="export-pills">
+                                        <span class="exp-btn">.CSV ↓</span>
+                                        <span class="exp-btn">.PDF ↓</span>
+                                        <span class="exp-btn">.XLSX ↓</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curved-card-body">
+                                <h3>Reports &amp; exports</h3>
+                                <p>Keep business data accessible and exportable in formats you need.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">METRICS &amp; EXPORTS</div>
+                </div>
+
+                <!-- Card 6 Duplicate -->
+                <div class="curved-card-container">
+                    <div class="curved-card">
+                        <div class="card-glass-glow"></div>
+                        <div class="curved-card-inner">
+                            <div class="curved-card-top">
+                                <div class="card-icon-pill">🔗</div>
+                                <span class="card-live-badge hub-badge">ALL-IN-ONE HUB</span>
+                            </div>
+                            <div class="card-micro-preview">
+                                <div class="preview-hub">
+                                    <div class="hub-center">
+                                        <span class="flame-ico">🔥</span>
+                                        <span class="hub-title">RiTiVERSE CORE</span>
+                                    </div>
+                                    <div class="hub-connectors">
+                                        <div class="hub-node"><span class="node-dot"></span>Website</div>
+                                        <div class="hub-node"><span class="node-dot"></span>Mobile App</div>
+                                        <div class="hub-node"><span class="node-dot"></span>CRM System</div>
+                                        <div class="hub-node"><span class="node-dot"></span>ERP Operations</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curved-card-body">
+                                <h3>One control layer</h3>
+                                <p>Manage your website, app, CRM and ERP from connected systems.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curved-card-label">UNIFIED ARCHITECTURE</div>
+                </div>
+
+            </div>
+        </div>
+
+        <button class="carousel-nav-btn next" id="carouselNext" aria-label="Next card">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
     </div>
 </section>
 
