@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags -->
-    <title><?= $title ?? 'RITIverse - Technology that fits your business' ?></title>
-    <meta name="description" content="<?= $meta_description ?? 'RITIverse builds custom software around how a business works — and gives the business owner a control panel to manage and change the system.' ?>">
-    <meta property="og:title" content="<?= $title ?? 'RITIverse - Technology that fits your business' ?>">
-    <meta property="og:description" content="<?= $meta_description ?? 'RITIverse builds custom software.' ?>">
+    <title><?= $title ?? 'RiTiVERSE - Technology that fits your business' ?></title>
+    <meta name="description" content="<?= $meta_description ?? 'RiTiVERSE builds custom software around how a business works — and gives the business owner a control panel to manage and change the system.' ?>">
+    <meta property="og:title" content="<?= $title ?? 'RiTiVERSE - Technology that fits your business' ?>">
+    <meta property="og:description" content="<?= $meta_description ?? 'RiTiVERSE builds custom software.' ?>">
     <meta property="og:type" content="website">
     
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -39,5 +39,6 @@
     <?php require_once 'partials/footer.php'; ?>
     
     <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/gallery-heading.js"></script>
 </body>
 </html>

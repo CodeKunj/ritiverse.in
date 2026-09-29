@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $title ?? 'Dashboard' ?> - RITIverse Admin</title>
+    <title><?= $title ?? 'Dashboard' ?> - RiTiVERSE Admin</title>
     <link rel="stylesheet" href="/assets/css/admin.css">
 </head>
 <body>
     <div class="admin-wrapper">
         <aside class="admin-sidebar">
-            <div class="sidebar-brand">RITIverse Admin</div>
+            <div class="sidebar-brand">
+                <img src="/assets/images/logo.svg" alt="RiTiVERSE Logo">
+                <span>RiTiVERSE Admin</span>
+            </div>
             <nav class="sidebar-nav">
-                <a href="/admin">Dashboard</a>
+                <a href="/admin" class="active">Dashboard</a>
                 <a href="/admin/pages">Pages</a>
                 <a href="/admin/services">Services</a>
                 <a href="/admin/projects">Projects</a>
@@ -29,7 +32,7 @@
             <header class="admin-topbar">
                 <h2><?= $title ?? 'Dashboard' ?></h2>
                 <div class="topbar-actions">
-                    <a href="/" target="_blank" class="btn-sm" style="text-decoration:none; background:var(--background); padding:0.5rem 1rem; border-radius:8px; color:var(--foreground); border:1px solid var(--border);">View Site ↗</a>
+                    <a href="/" target="_blank" class="btn-sm" style="text-decoration:none; background:var(--background); padding:0.5rem 1rem; border-radius:8px; color:var(--foreground); border:1px solid var(--border); font-weight: 500;">View Site ↗</a>
                 </div>
             </header>
             <div class="admin-content">
