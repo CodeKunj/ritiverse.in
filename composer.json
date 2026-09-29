@@ -1,0 +1,13 @@
+{
+    "name": "ritiverse/cms",
+    "description": "RITIverse CMS and Public Website",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}
