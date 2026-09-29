@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
             inside = false;
             try {
                 galleryFrame.contentWindow?.postMessage({ threeuiRuntime: { hover: 0 } }, '*');
-            } catch (e) {}
+            } catch (e) { }
         };
 
         const onMessage = (event) => {
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         headline: ['WHAT WE', 'BUILD']
                     }
                 }, '*');
-            } catch (e) {}
+            } catch (e) { }
         });
 
         if (galleryFrame.contentDocument?.readyState === 'complete') {
