@@ -19,7 +19,7 @@ ob_start();
         </div>
     </div>
 
-    <!-- RIGHT: Dual-column infinite auto-scroll (Webild-style) -->
+    <!-- RIGHT: Dual-column infinite auto-scroll (Vertical UI Anatomy Cards) -->
     <div class="hero-right">
         <div class="scroll-stage">
 
@@ -27,129 +27,242 @@ ob_start();
             <div class="scroll-col">
                 <div class="scroll-col-inner" data-dir="up">
 
-                    <div class="work-card">
-                        <div class="work-card-label">
+                    <!-- Card 1: Fashion Store -->
+                    <div class="anatomy-card">
+                        <div class="anatomy-card-label">
                             <span class="work-tag">E-Commerce</span>
                             <h4>Fashion Store</h4>
                         </div>
-                        <div class="work-card-visual">
+                        <div class="anatomy-visual">
                             <div class="mini-browser">
                                 <div class="mini-browser-bar"><span></span><span></span><span></span></div>
                                 <div class="mini-screen">
-                                    <div class="mini-bar accent" style="height:8px;margin-bottom:7px;"></div>
-                                    <div class="mini-bar" style="height:32px;margin-bottom:5px;"></div>
-                                    <div style="display:flex;gap:5px;">
-                                        <div class="mini-bar" style="flex:1;height:42px;"></div>
-                                        <div class="mini-bar" style="flex:1;height:42px;"></div>
-                                        <div class="mini-bar" style="flex:1;height:42px;"></div>
+                                    <div class="anatomy-bar accent" style="height:10px;margin-bottom:8px;border-radius:4px;"></div>
+                                    <div class="anatomy-grid-2x2">
+                                        <div class="anatomy-prod-cell"><div class="prod-thumb"></div><div class="anatomy-bar short"></div></div>
+                                        <div class="anatomy-prod-cell"><div class="prod-thumb"></div><div class="anatomy-bar short"></div></div>
+                                        <div class="anatomy-prod-cell"><div class="prod-thumb"></div><div class="anatomy-bar short"></div></div>
+                                        <div class="anatomy-prod-cell"><div class="prod-thumb"></div><div class="anatomy-bar short"></div></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="work-card work-card--b">
-                        <div class="work-card-label">
+                    <!-- Card 2: Restaurant Chain -->
+                    <div class="anatomy-card anatomy-card--b">
+                        <div class="anatomy-card-label">
                             <span class="work-tag">Admin Panel</span>
                             <h4>Restaurant Chain</h4>
                         </div>
-                        <div class="work-card-visual">
+                        <div class="anatomy-visual">
                             <div class="mini-dash">
                                 <div class="mini-sidebar"></div>
                                 <div class="mini-content">
-                                    <div class="mini-bar accent"></div>
-                                    <div class="mini-bar short"></div>
-                                    <div class="mini-bar tall"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="work-card work-card--c">
-                        <div class="work-card-label">
-                            <span class="work-tag">ERP System</span>
-                            <h4>Wholesale Distributor</h4>
-                        </div>
-                        <div class="work-card-visual">
-                            <div class="mini-terminal">
-                                <div class="mini-term-line" style="color:#10B981;">▶ INVENTORY SYNC ✓</div>
-                                <div class="mini-term-line" style="color:#FD6D00;">● Orders: 1,284</div>
-                                <div class="mini-term-line" style="color:#8C8476;">● Revenue: ₹48.2L</div>
-                                <div class="mini-term-line" style="color:#10B981;">▶ REPORT READY ✓</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="work-card">
-                        <div class="work-card-label">
-                            <span class="work-tag">Booking System</span>
-                            <h4>Clinic Management</h4>
-                        </div>
-                        <div class="work-card-visual">
-                            <div class="mini-browser">
-                                <div class="mini-browser-bar"><span></span><span></span><span></span></div>
-                                <div class="mini-screen">
-                                    <div class="mini-bar" style="height:9px;margin-bottom:7px;background:rgba(253,109,0,0.35);"></div>
-                                    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:3px;">
-                                        <div style="height:12px;background:rgba(253,109,0,0.5);border-radius:2px;"></div>
-                                        <div style="height:12px;background:#E5DFD4;border-radius:2px;"></div>
-                                        <div style="height:12px;background:#E5DFD4;border-radius:2px;"></div>
-                                        <div style="height:12px;background:#E5DFD4;border-radius:2px;"></div>
-                                        <div style="height:12px;background:#E5DFD4;border-radius:2px;"></div>
-                                        <div style="height:12px;background:rgba(253,109,0,0.5);border-radius:2px;"></div>
-                                        <div style="height:12px;background:#E5DFD4;border-radius:2px;"></div>
-                                        <div style="height:12px;background:#E5DFD4;border-radius:2px;"></div>
+                                    <div class="anatomy-bar accent" style="height:8px;width:75%;margin-bottom:6px;"></div>
+                                    <div class="dash-stat-row">
+                                        <div class="stat-pill"></div>
+                                        <div class="stat-pill"></div>
+                                    </div>
+                                    <div class="table-skeleton">
+                                        <div class="table-row"><span></span><span></span></div>
+                                        <div class="table-row"><span></span><span></span></div>
+                                        <div class="table-row"><span></span><span></span></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="work-card work-card--d">
-                        <div class="work-card-label">
+                    <!-- Card 3: Wholesale Distributor -->
+                    <div class="anatomy-card anatomy-card--c">
+                        <div class="anatomy-card-label">
+                            <span class="work-tag">ERP System</span>
+                            <h4>Wholesale Distributor</h4>
+                        </div>
+                        <div class="anatomy-visual">
+                            <div class="mini-terminal">
+                                <div class="mini-term-line" style="color:#10B981;">▶ INVENTORY SYNC ✓</div>
+                                <div class="mini-term-line" style="color:#FD6D00;">● Orders: 1,284</div>
+                                <div class="mini-term-line" style="color:#C4BCAF;">● Ledger: ₹48.2L</div>
+                                <div class="mini-term-line" style="color:#10B981;">▶ REPORT READY ✓</div>
+                                <div class="mini-term-line" style="color:#8C8476;">● 48,200 SKUs MATCH</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Clinic Management -->
+                    <div class="anatomy-card">
+                        <div class="anatomy-card-label">
+                            <span class="work-tag">Booking System</span>
+                            <h4>Clinic Management</h4>
+                        </div>
+                        <div class="anatomy-visual">
+                            <div class="mini-browser">
+                                <div class="mini-browser-bar"><span></span><span></span><span></span></div>
+                                <div class="mini-screen">
+                                    <div class="anatomy-bar" style="height:9px;margin-bottom:8px;background:rgba(253,109,0,0.35);border-radius:3px;"></div>
+                                    <div class="calendar-grid">
+                                        <div class="cal-slot active"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot active"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot active"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5: HR Management -->
+                    <div class="anatomy-card anatomy-card--d">
+                        <div class="anatomy-card-label">
                             <span class="work-tag">SaaS Platform</span>
                             <h4>HR Management</h4>
                         </div>
-                        <div class="work-card-visual">
+                        <div class="anatomy-visual">
                             <div class="mini-dash">
-                                <div class="mini-sidebar" style="background:rgba(253,109,0,0.08);border-color:rgba(253,109,0,0.1);"></div>
+                                <div class="mini-sidebar" style="background:rgba(253,109,0,0.08);border-color:rgba(253,109,0,0.12);"></div>
                                 <div class="mini-content">
-                                    <div class="mini-bar" style="background:rgba(253,109,0,0.35);"></div>
-                                    <div class="mini-bar short" style="background:rgba(253,109,0,0.2);"></div>
-                                    <div class="mini-bar tall" style="background:rgba(253,109,0,0.1);"></div>
+                                    <div class="anatomy-bar" style="background:rgba(253,109,0,0.35);height:8px;width:70%;"></div>
+                                    <div class="anatomy-bar short" style="background:rgba(253,109,0,0.18);height:7px;"></div>
+                                    <div class="chart-bars-skeleton">
+                                        <span style="height:40%;"></span>
+                                        <span style="height:75%;"></span>
+                                        <span style="height:55%;"></span>
+                                        <span style="height:90%;background:#FD6D00;"></span>
+                                        <span style="height:65%;"></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Duplicates for seamless loop -->
-                    <div class="work-card">
-                        <div class="work-card-label"><span class="work-tag">E-Commerce</span><h4>Fashion Store</h4></div>
-                        <div class="work-card-visual">
+                    <!-- Card 1 Duplicate -->
+                    <div class="anatomy-card">
+                        <div class="anatomy-card-label">
+                            <span class="work-tag">E-Commerce</span>
+                            <h4>Fashion Store</h4>
+                        </div>
+                        <div class="anatomy-visual">
                             <div class="mini-browser">
                                 <div class="mini-browser-bar"><span></span><span></span><span></span></div>
                                 <div class="mini-screen">
-                                    <div class="mini-bar accent" style="height:8px;margin-bottom:7px;"></div>
-                                    <div class="mini-bar" style="height:32px;margin-bottom:5px;"></div>
-                                    <div style="display:flex;gap:5px;">
-                                        <div class="mini-bar" style="flex:1;height:42px;"></div>
-                                        <div class="mini-bar" style="flex:1;height:42px;"></div>
-                                        <div class="mini-bar" style="flex:1;height:42px;"></div>
+                                    <div class="anatomy-bar accent" style="height:10px;margin-bottom:8px;border-radius:4px;"></div>
+                                    <div class="anatomy-grid-2x2">
+                                        <div class="anatomy-prod-cell"><div class="prod-thumb"></div><div class="anatomy-bar short"></div></div>
+                                        <div class="anatomy-prod-cell"><div class="prod-thumb"></div><div class="anatomy-bar short"></div></div>
+                                        <div class="anatomy-prod-cell"><div class="prod-thumb"></div><div class="anatomy-bar short"></div></div>
+                                        <div class="anatomy-prod-cell"><div class="prod-thumb"></div><div class="anatomy-bar short"></div></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="work-card work-card--b">
-                        <div class="work-card-label"><span class="work-tag">Admin Panel</span><h4>Restaurant Chain</h4></div>
-                        <div class="work-card-visual"><div class="mini-dash"><div class="mini-sidebar"></div><div class="mini-content"><div class="mini-bar accent"></div><div class="mini-bar short"></div><div class="mini-bar tall"></div></div></div></div>
+
+                    <!-- Card 2 Duplicate -->
+                    <div class="anatomy-card anatomy-card--b">
+                        <div class="anatomy-card-label">
+                            <span class="work-tag">Admin Panel</span>
+                            <h4>Restaurant Chain</h4>
+                        </div>
+                        <div class="anatomy-visual">
+                            <div class="mini-dash">
+                                <div class="mini-sidebar"></div>
+                                <div class="mini-content">
+                                    <div class="anatomy-bar accent" style="height:8px;width:75%;margin-bottom:6px;"></div>
+                                    <div class="dash-stat-row">
+                                        <div class="stat-pill"></div>
+                                        <div class="stat-pill"></div>
+                                    </div>
+                                    <div class="table-skeleton">
+                                        <div class="table-row"><span></span><span></span></div>
+                                        <div class="table-row"><span></span><span></span></div>
+                                        <div class="table-row"><span></span><span></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="work-card work-card--c">
-                        <div class="work-card-label"><span class="work-tag">ERP System</span><h4>Wholesale Distributor</h4></div>
-                        <div class="work-card-visual"><div class="mini-terminal"><div class="mini-term-line" style="color:#10B981;">▶ INVENTORY SYNC ✓</div><div class="mini-term-line" style="color:#FD6D00;">● Orders: 1,284</div><div class="mini-term-line" style="color:#8C8476;">● Revenue: ₹48.2L</div><div class="mini-term-line" style="color:#10B981;">▶ REPORT READY ✓</div></div></div>
+
+                    <!-- Card 3 Duplicate -->
+                    <div class="anatomy-card anatomy-card--c">
+                        <div class="anatomy-card-label">
+                            <span class="work-tag">ERP System</span>
+                            <h4>Wholesale Distributor</h4>
+                        </div>
+                        <div class="anatomy-visual">
+                            <div class="mini-terminal">
+                                <div class="mini-term-line" style="color:#10B981;">▶ INVENTORY SYNC ✓</div>
+                                <div class="mini-term-line" style="color:#FD6D00;">● Orders: 1,284</div>
+                                <div class="mini-term-line" style="color:#C4BCAF;">● Ledger: ₹48.2L</div>
+                                <div class="mini-term-line" style="color:#10B981;">▶ REPORT READY ✓</div>
+                                <div class="mini-term-line" style="color:#8C8476;">● 48,200 SKUs MATCH</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="work-card"><div class="work-card-label"><span class="work-tag">Booking System</span><h4>Clinic Management</h4></div><div class="work-card-visual"><div class="mini-browser"><div class="mini-browser-bar"><span></span><span></span><span></span></div><div class="mini-screen"><div class="mini-bar" style="height:9px;margin-bottom:7px;background:rgba(253,109,0,0.35);"></div><div style="display:grid;grid-template-columns:repeat(4,1fr);gap:3px;"><div style="height:12px;background:rgba(253,109,0,0.5);border-radius:2px;"></div><div style="height:12px;background:#E5DFD4;border-radius:2px;"></div><div style="height:12px;background:#E5DFD4;border-radius:2px;"></div><div style="height:12px;background:#E5DFD4;border-radius:2px;"></div></div></div></div></div></div>
-                    <div class="work-card work-card--d"><div class="work-card-label"><span class="work-tag">SaaS Platform</span><h4>HR Management</h4></div><div class="work-card-visual"><div class="mini-dash"><div class="mini-sidebar" style="background:rgba(253,109,0,0.08);"></div><div class="mini-content"><div class="mini-bar" style="background:rgba(253,109,0,0.35);"></div><div class="mini-bar short"></div><div class="mini-bar tall"></div></div></div></div></div>
+
+                    <!-- Card 4 Duplicate -->
+                    <div class="anatomy-card">
+                        <div class="anatomy-card-label">
+                            <span class="work-tag">Booking System</span>
+                            <h4>Clinic Management</h4>
+                        </div>
+                        <div class="anatomy-visual">
+                            <div class="mini-browser">
+                                <div class="mini-browser-bar"><span></span><span></span><span></span></div>
+                                <div class="mini-screen">
+                                    <div class="anatomy-bar" style="height:9px;margin-bottom:8px;background:rgba(253,109,0,0.35);border-radius:3px;"></div>
+                                    <div class="calendar-grid">
+                                        <div class="cal-slot active"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot active"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot active"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot"></div>
+                                        <div class="cal-slot"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 Duplicate -->
+                    <div class="anatomy-card anatomy-card--d">
+                        <div class="anatomy-card-label">
+                            <span class="work-tag">SaaS Platform</span>
+                            <h4>HR Management</h4>
+                        </div>
+                        <div class="anatomy-visual">
+                            <div class="mini-dash">
+                                <div class="mini-sidebar" style="background:rgba(253,109,0,0.08);border-color:rgba(253,109,0,0.12);"></div>
+                                <div class="mini-content">
+                                    <div class="anatomy-bar" style="background:rgba(253,109,0,0.35);height:8px;width:70%;"></div>
+                                    <div class="anatomy-bar short" style="background:rgba(253,109,0,0.18);height:7px;"></div>
+                                    <div class="chart-bars-skeleton">
+                                        <span style="height:40%;"></span>
+                                        <span style="height:75%;"></span>
+                                        <span style="height:55%;"></span>
+                                        <span style="height:90%;background:#FD6D00;"></span>
+                                        <span style="height:65%;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -158,46 +271,50 @@ ob_start();
             <div class="scroll-col">
                 <div class="scroll-col-inner" data-dir="down">
 
-                    <div class="work-card work-card--b">
-                        <div class="work-card-label">
+                    <!-- Card 6: Real Estate CRM -->
+                    <div class="anatomy-card anatomy-card--b">
+                        <div class="anatomy-card-label">
                             <span class="work-tag">CRM System</span>
                             <h4>Real Estate CRM</h4>
                         </div>
-                        <div class="work-card-visual">
+                        <div class="anatomy-visual">
                             <div class="mini-crm">
                                 <div class="mini-crm-row"><div class="mini-avatar"></div><div class="mini-crm-info"><span></span><span></span></div><span class="mini-badge badge-hot">Hot</span></div>
                                 <div class="mini-crm-row"><div class="mini-avatar" style="background:rgba(253,109,0,0.3);"></div><div class="mini-crm-info"><span></span><span></span></div><span class="mini-badge badge-warm">Warm</span></div>
                                 <div class="mini-crm-row"><div class="mini-avatar" style="background:rgba(99,102,241,0.3);"></div><div class="mini-crm-info"><span></span><span></span></div><span class="mini-badge badge-cold">Cold</span></div>
-                                <div class="mini-crm-row"><div class="mini-avatar"></div><div class="mini-crm-info"><span></span><span></span></div><span class="mini-badge badge-hot">Hot</span></div>
+                                <div class="mini-crm-row"><div class="mini-avatar" style="background:rgba(16,185,129,0.3);"></div><div class="mini-crm-info"><span></span><span></span></div><span class="mini-badge badge-hot">Won</span></div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="work-card">
-                        <div class="work-card-label">
+                    <!-- Card 7: Delivery Tracker -->
+                    <div class="anatomy-card">
+                        <div class="anatomy-card-label">
                             <span class="work-tag">Mobile App</span>
                             <h4>Delivery Tracker</h4>
                         </div>
-                        <div class="work-card-visual" style="display:flex;justify-content:center;padding:0.5rem;">
+                        <div class="anatomy-visual" style="display:flex;justify-content:center;padding:0.4rem;">
                             <div class="mini-mobile">
                                 <div class="mini-mobile-notch"></div>
                                 <div class="mini-mobile-screen">
-                                    <div style="background:rgba(16,185,129,0.12);border-radius:4px;padding:4px;margin-bottom:4px;">
-                                        <div style="font-size:0.52rem;color:#10B981;font-weight:700;">● On the way</div>
+                                    <div style="background:rgba(16,185,129,0.14);border-radius:4px;padding:4px;margin-bottom:6px;">
+                                        <div style="font-size:0.52rem;color:#059669;font-weight:700;">● On the way</div>
                                         <div style="font-size:0.48rem;color:#6E6659;">ETA: 12 min</div>
                                     </div>
-                                    <div style="height:26px;background:#E5DFD4;border-radius:3px;"></div>
+                                    <div style="height:32px;background:#EDE6D8;border-radius:4px;margin-bottom:5px;"></div>
+                                    <div style="height:12px;background:rgba(253,109,0,0.4);border-radius:3px;"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="work-card work-card--c">
-                        <div class="work-card-label">
+                    <!-- Card 8: Retail Chain POS -->
+                    <div class="anatomy-card anatomy-card--c">
+                        <div class="anatomy-card-label">
                             <span class="work-tag">Inventory</span>
                             <h4>Retail Chain POS</h4>
                         </div>
-                        <div class="work-card-visual">
+                        <div class="anatomy-visual">
                             <div class="mini-pos">
                                 <div class="mini-pos-row"><span>Product A</span><span>₹299</span></div>
                                 <div class="mini-pos-row"><span>Product B</span><span>₹149</span></div>
@@ -208,49 +325,136 @@ ob_start();
                         </div>
                     </div>
 
-                    <div class="work-card work-card--d">
-                        <div class="work-card-label">
+                    <!-- Card 9: SaaS Startup -->
+                    <div class="anatomy-card anatomy-card--d">
+                        <div class="anatomy-card-label">
                             <span class="work-tag">Landing Page</span>
                             <h4>SaaS Startup</h4>
                         </div>
-                        <div class="work-card-visual">
+                        <div class="anatomy-visual">
                             <div class="mini-browser">
                                 <div class="mini-browser-bar"><span></span><span></span><span></span></div>
                                 <div class="mini-screen">
-                                    <div class="mini-bar" style="background:rgba(253,109,0,0.5);height:28px;margin-bottom:6px;border-radius:4px;"></div>
-                                    <div class="mini-bar" style="background:#E5DFD4;height:12px;margin-bottom:5px;width:70%;border-radius:2px;"></div>
-                                    <div class="mini-bar" style="background:#FD6D00;height:16px;border-radius:20px;width:38%;"></div>
+                                    <div class="anatomy-bar accent" style="height:24px;margin-bottom:6px;border-radius:4px;"></div>
+                                    <div class="anatomy-bar" style="background:#E5DFD4;height:9px;margin-bottom:5px;width:75%;"></div>
+                                    <div class="anatomy-bar" style="background:#FD6D00;height:12px;border-radius:20px;width:40%;"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="work-card">
-                        <div class="work-card-label">
+                    <!-- Card 10: Business Dashboard -->
+                    <div class="anatomy-card">
+                        <div class="anatomy-card-label">
                             <span class="work-tag">Analytics</span>
                             <h4>Business Dashboard</h4>
                         </div>
-                        <div class="work-card-visual">
+                        <div class="anatomy-visual">
                             <div class="mini-dash">
                                 <div class="mini-sidebar"></div>
                                 <div class="mini-content">
-                                    <div style="display:flex;gap:4px;margin-bottom:5px;">
-                                        <div style="flex:1;height:20px;background:rgba(253,109,0,0.18);border-radius:3px;"></div>
-                                        <div style="flex:1;height:20px;background:#E5DFD4;border-radius:3px;"></div>
-                                        <div style="flex:1;height:20px;background:#E5DFD4;border-radius:3px;"></div>
+                                    <div style="display:flex;gap:4px;margin-bottom:6px;">
+                                        <div style="flex:1;height:18px;background:rgba(253,109,0,0.18);border-radius:3px;"></div>
+                                        <div style="flex:1;height:18px;background:#EDE6D8;border-radius:3px;"></div>
                                     </div>
-                                    <div style="height:38px;background:linear-gradient(to top,rgba(253,109,0,0.15),rgba(253,109,0,0.02));border-radius:3px;border-bottom:2px solid #FD6D00;"></div>
+                                    <div style="height:44px;background:linear-gradient(to top,rgba(253,109,0,0.18),rgba(253,109,0,0.02));border-radius:3px;border-bottom:2px solid #FD6D00;"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Duplicates for seamless loop -->
-                    <div class="work-card work-card--b"><div class="work-card-label"><span class="work-tag">CRM System</span><h4>Real Estate CRM</h4></div><div class="work-card-visual"><div class="mini-crm"><div class="mini-crm-row"><div class="mini-avatar"></div><div class="mini-crm-info"><span></span><span></span></div><span class="mini-badge badge-hot">Hot</span></div><div class="mini-crm-row"><div class="mini-avatar" style="background:rgba(253,109,0,0.3);"></div><div class="mini-crm-info"><span></span><span></span></div><span class="mini-badge badge-warm">Warm</span></div><div class="mini-crm-row"><div class="mini-avatar" style="background:rgba(99,102,241,0.3);"></div><div class="mini-crm-info"><span></span><span></span></div><span class="mini-badge badge-cold">Cold</span></div><div class="mini-crm-row"><div class="mini-avatar"></div><div class="mini-crm-info"><span></span><span></span></div><span class="mini-badge badge-hot">Hot</span></div></div></div></div>
-                    <div class="work-card"><div class="work-card-label"><span class="work-tag">Mobile App</span><h4>Delivery Tracker</h4></div><div class="work-card-visual" style="display:flex;justify-content:center;padding:0.5rem;"><div class="mini-mobile"><div class="mini-mobile-notch"></div><div class="mini-mobile-screen"><div style="background:rgba(16,185,129,0.12);border-radius:4px;padding:4px;margin-bottom:4px;"><div style="font-size:0.52rem;color:#10B981;font-weight:700;">● On the way</div><div style="font-size:0.48rem;color:#6E6659;">ETA: 12 min</div></div><div style="height:26px;background:#E5DFD4;border-radius:3px;"></div></div></div></div></div>
-                    <div class="work-card work-card--c"><div class="work-card-label"><span class="work-tag">Inventory</span><h4>Retail Chain POS</h4></div><div class="work-card-visual"><div class="mini-pos"><div class="mini-pos-row"><span>Product A</span><span>₹299</span></div><div class="mini-pos-row"><span>Product B</span><span>₹149</span></div><div class="mini-pos-row"><span>Product C</span><span>₹599</span></div><div class="mini-pos-total">Total: ₹1,047</div><div class="mini-pos-btn">Confirm Sale</div></div></div></div>
-                    <div class="work-card work-card--d"><div class="work-card-label"><span class="work-tag">Landing Page</span><h4>SaaS Startup</h4></div><div class="work-card-visual"><div class="mini-browser"><div class="mini-browser-bar"><span></span><span></span><span></span></div><div class="mini-screen"><div class="mini-bar" style="background:rgba(253,109,0,0.5);height:28px;margin-bottom:6px;border-radius:4px;"></div><div class="mini-bar" style="background:#E5DFD4;height:12px;margin-bottom:5px;width:70%;"></div><div class="mini-bar" style="background:#FD6D00;height:16px;border-radius:20px;width:38%;"></div></div></div></div></div>
-                    <div class="work-card"><div class="work-card-label"><span class="work-tag">Analytics</span><h4>Business Dashboard</h4></div><div class="work-card-visual"><div class="mini-dash"><div class="mini-sidebar"></div><div class="mini-content"><div style="display:flex;gap:4px;margin-bottom:5px;"><div style="flex:1;height:20px;background:rgba(253,109,0,0.18);border-radius:3px;"></div><div style="flex:1;height:20px;background:#E5DFD4;border-radius:3px;"></div><div style="flex:1;height:20px;background:#E5DFD4;border-radius:3px;"></div></div><div style="height:38px;background:linear-gradient(to top,rgba(253,109,0,0.15),rgba(253,109,0,0.02));border-radius:3px;border-bottom:2px solid #FD6D00;"></div></div></div></div></div>
+                    <!-- Card 6 Duplicate -->
+                    <div class="anatomy-card anatomy-card--b">
+                        <div class="anatomy-card-label">
+                            <span class="work-tag">CRM System</span>
+                            <h4>Real Estate CRM</h4>
+                        </div>
+                        <div class="anatomy-visual">
+                            <div class="mini-crm">
+                                <div class="mini-crm-row"><div class="mini-avatar"></div><div class="mini-crm-info"><span></span><span></span></div><span class="mini-badge badge-hot">Hot</span></div>
+                                <div class="mini-crm-row"><div class="mini-avatar" style="background:rgba(253,109,0,0.3);"></div><div class="mini-crm-info"><span></span><span></span></div><span class="mini-badge badge-warm">Warm</span></div>
+                                <div class="mini-crm-row"><div class="mini-avatar" style="background:rgba(99,102,241,0.3);"></div><div class="mini-crm-info"><span></span><span></span></div><span class="mini-badge badge-cold">Cold</span></div>
+                                <div class="mini-crm-row"><div class="mini-avatar" style="background:rgba(16,185,129,0.3);"></div><div class="mini-crm-info"><span></span><span></span></div><span class="mini-badge badge-hot">Won</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 7 Duplicate -->
+                    <div class="anatomy-card">
+                        <div class="anatomy-card-label">
+                            <span class="work-tag">Mobile App</span>
+                            <h4>Delivery Tracker</h4>
+                        </div>
+                        <div class="anatomy-visual" style="display:flex;justify-content:center;padding:0.4rem;">
+                            <div class="mini-mobile">
+                                <div class="mini-mobile-notch"></div>
+                                <div class="mini-mobile-screen">
+                                    <div style="background:rgba(16,185,129,0.14);border-radius:4px;padding:4px;margin-bottom:6px;">
+                                        <div style="font-size:0.52rem;color:#059669;font-weight:700;">● On the way</div>
+                                        <div style="font-size:0.48rem;color:#6E6659;">ETA: 12 min</div>
+                                    </div>
+                                    <div style="height:32px;background:#EDE6D8;border-radius:4px;margin-bottom:5px;"></div>
+                                    <div style="height:12px;background:rgba(253,109,0,0.4);border-radius:3px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 8 Duplicate -->
+                    <div class="anatomy-card anatomy-card--c">
+                        <div class="anatomy-card-label">
+                            <span class="work-tag">Inventory</span>
+                            <h4>Retail Chain POS</h4>
+                        </div>
+                        <div class="anatomy-visual">
+                            <div class="mini-pos">
+                                <div class="mini-pos-row"><span>Product A</span><span>₹299</span></div>
+                                <div class="mini-pos-row"><span>Product B</span><span>₹149</span></div>
+                                <div class="mini-pos-row"><span>Product C</span><span>₹599</span></div>
+                                <div class="mini-pos-total">Total: ₹1,047</div>
+                                <div class="mini-pos-btn">Confirm Sale</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 9 Duplicate -->
+                    <div class="anatomy-card anatomy-card--d">
+                        <div class="anatomy-card-label">
+                            <span class="work-tag">Landing Page</span>
+                            <h4>SaaS Startup</h4>
+                        </div>
+                        <div class="anatomy-visual">
+                            <div class="mini-browser">
+                                <div class="mini-browser-bar"><span></span><span></span><span></span></div>
+                                <div class="mini-screen">
+                                    <div class="anatomy-bar accent" style="height:24px;margin-bottom:6px;border-radius:4px;"></div>
+                                    <div class="anatomy-bar" style="background:#E5DFD4;height:9px;margin-bottom:5px;width:75%;"></div>
+                                    <div class="anatomy-bar" style="background:#FD6D00;height:12px;border-radius:20px;width:40%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 10 Duplicate -->
+                    <div class="anatomy-card">
+                        <div class="anatomy-card-label">
+                            <span class="work-tag">Analytics</span>
+                            <h4>Business Dashboard</h4>
+                        </div>
+                        <div class="anatomy-visual">
+                            <div class="mini-dash">
+                                <div class="mini-sidebar"></div>
+                                <div class="mini-content">
+                                    <div style="display:flex;gap:4px;margin-bottom:6px;">
+                                        <div style="flex:1;height:18px;background:rgba(253,109,0,0.18);border-radius:3px;"></div>
+                                        <div style="flex:1;height:18px;background:#EDE6D8;border-radius:3px;"></div>
+                                    </div>
+                                    <div style="height:44px;background:linear-gradient(to top,rgba(253,109,0,0.18),rgba(253,109,0,0.02));border-radius:3px;border-bottom:2px solid #FD6D00;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
