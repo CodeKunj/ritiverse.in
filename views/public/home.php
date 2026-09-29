@@ -330,7 +330,7 @@ ob_start();
 <!-- ══════════════════════════════════════════
      WHY RiTiVERSE
 ══════════════════════════════════════════ -->
-<section class="differentiator-section container">
+<section class="differentiator-section container" id="solutions">
     <div class="section-header reveal">
         <h2>Why businesses choose <span class="gradient-text">RiTiVERSE</span></h2>
         <p>Not a template. Not a generic CMS. A system built around your exact business workflow.</p>
@@ -348,7 +348,6 @@ ob_start();
 <!-- ══════════════════════════════════════════
      WHAT WE BUILD (3D ROTATING SERVICES)
 ══════════════════════════════════════════ -->
-<!-- <section class="services-bento container" id="solutions"> -->
 <section class="services-bento container" id="work">
     <div class="shader-frame reveal" id="gallery-heading-host">
         <canvas id="gallery-heading-canvas" class="gallery-heading-canvas" aria-label="What we build — interactive 3D canvas animation"></canvas>

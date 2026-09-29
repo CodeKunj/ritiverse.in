@@ -5,8 +5,8 @@
             <span>RiTiVERSE</span>
         </a>
         <nav class="desktop-nav">
-            <a href="#solutions">Solutions</a>
             <a href="#admin-panel">Admin Panel</a>
+            <a href="#solutions">Solutions</a>
             <a href="#work">Work</a>
             <a href="#process">Process</a>
             <a href="#contact">Contact</a>
